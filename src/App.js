@@ -5,42 +5,62 @@ import { MdArrowForward } from "react-icons/md";
 const data = [
     {
       id:1,
-      name:"علی خدنگی",
+      name:"سعید هریوندی",
       car:"پراید",
       rate:"خیلی خوب",
-      mony:"۱۷۵٬۰۰۰ ریال",
-      date:"سفر پنج‌شنبه ظهر 30 تیر",
-      start:"بیرجند، بلوار مدرس بعد از میدان اول مدرس، بانک سپه",
-      end:"بیرجند، بلوار مسافر، خودپرداز بانک تجارت",
-      img:"./ride.png",
-      prof:"./7O9oYe6KgwaN5KzgvZyP-2.jpg",
+      mony:"250٬۰۰۰ ریال",
+      date:"صبح ۲۷ مهر پنجشنبه",
+      start:"بیرجند، چهارراه صیاد، بلوار پاسداران بعد از پاسداران 2،اداره پست بیرجند",
+      end:"بیرجند، بلوار پیامر اعظم، فرهنگ ،نسترن بعد از نسترن 3،خشک شوی پارسیان",
+      img:"./IMG_20231113_090039_259.jpg",
+      prof:"./IMG_20231113_085843_872.jpg",
       type:"اسنپ",
       pay:"۲۰۴٬۳۹۹ ریال",
       off:"۵٬۶۰۱ ریال",
       totalPay:"۲۱۰٬۰۰۰ ریال",
-      sdate:"۲۲ تیر ۱۴۰۲",
-      stime:"۱۲:۴۹",
-      code:"SNP-230713-67604-2957"
+      sdate:"27 مهر ۱۴۰۲",
+      stime:"11:02",
+      code:"SNP-23071-45009-7360"
   
   
     },
     {
       id:2,
-      name:"2علی خدنگی",
+      name:"علی ناصحی تبار",
       car:"پراید",
       rate:"خیلی خوب",
-      mony:"۱۷۵٬۰۰۰ ریال",
-      date:"سفر پنج‌شنبه ظهر ۲۲ تیر",
-      start:"بیرجند، بلوار مدرس بعد از میدان اول مدرس، بانک سپه",
+      mony:"۱50٬۰۰۰ ریال",
+      date:"سفر پنج‌شنبه ظهر ۲۲ مهر",
+      start:"بیرجند، محبت بعد از بلوار استاندارد",
       end:"بیرجند، بلوار مسافر، خودپرداز بانک تجارت",
       img:"./ride.png",
       prof:"./7O9oYe6KgwaN5KzgvZyP-2.jpg",
       type:"اسنپ",
-      pay:"۲۰۴٬۳۹۹ ریال",
+      pay:"18۴٬۳۹۹ ریال",
       off:"۵٬۶۰۱ ریال",
       totalPay:"۲۱۰٬۰۰۰ ریال",
-      sdate:"۲۲ تیر ۱۴۰۲",
-      stime:"۱۲:۴۹",
+      sdate:"۲۲ مهر ۱۴۰۲",
+      stime:"۱0:۴۹",
+      code:"SNP-230713-67604-2957"
+  
+    },
+    {
+      id:3,
+      name:"علی خدنگی",
+      car:"پراید",
+      rate:"خیلی خوب",
+      mony:"18۵٬۰۰۰ ریال",
+      date:"سفر سشنبه ظهر 20 مهر",
+      start:"بیرجند، بلوار مدرس بعد از میدان اول مدرس، بانک سپه",
+      end:"بیرجند، بلوار مسافر، خودپرداز بانک تجارت",
+      img:"./ride (1).png",
+      prof:"./WBPNaj2ZYYBMpDbz5xXR-1.jpg",
+      type:"اسنپ",
+      pay:"۲1۴٬۳۹۹ ریال",
+      off:"۵٬۶۰۱ ریال",
+      totalPay:"۲2۰٬۰۰۰ ریال",
+      sdate:"۲۲ مهر ۱۴۰۲",
+      stime:"۱5:۴۹",
       code:"SNP-230713-67604-2957"
   
   }
@@ -77,8 +97,8 @@ function App() {
                   <img className='History-header-item-image' 
                   src="./ride-history-km.webp"  height="65px" width="85px"/>
                 </div>
-                <h6 className='History-header-item-title'>5</h6>
-                <p className='History-header-item-detail'>ساغت</p>
+                <h6 className='History-header-item-title'>35</h6>
+                <p className='History-header-item-detail'>ساعت</p>
                 <p className='History-header-item-detail'>با اسنپ</p>
                 
               </div>
@@ -87,7 +107,7 @@ function App() {
                   <img className='History-header-item-image' 
                   src="./ride-history-quantity.webp"  height="65px" width="85px"/>
                 </div>
-                <h6 className='History-header-item-title'>31</h6>
+                <h6 className='History-header-item-title'>231</h6>
                 <p className='History-header-item-detail'>سفر</p>
                 <p className='History-header-item-detail'>با اسنپ</p>
               </div>
@@ -96,7 +116,7 @@ function App() {
                   <img className='History-header-item-image' 
                   src="./ride-history-hour.webp"  height="65px" width="85px"/>
                 </div>
-                <h6 className='History-header-item-title'>162</h6>
+                <h6 className='History-header-item-title'>1193</h6>
                 <p className='History-header-item-detail'>کیلومتر</p>
                 <p className='History-header-item-detail'>با اسنپ</p>
               </div>
@@ -120,7 +140,7 @@ function App() {
                       <p className='History-item-prof-car'>{trip.car}</p>
                     </div>
                     <div className='History-item-prof-pic'>
-                      <img className='History-item-prof-image' src="./7O9oYe6KgwaN5KzgvZyP-2.jpg"/>
+                      <img className='History-item-prof-image' src={trip.prof}/>
                     </div>
                   </div>
     
