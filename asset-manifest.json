@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/snap-clon/static/css/main.c6ffd79e.css",
+    "main.js": "/snap-clon/static/js/main.981fe3b1.js",
+    "static/js/787.626e8cab.chunk.js": "/snap-clon/static/js/787.626e8cab.chunk.js",
+    "static/media/IRANSansXFaNum-regular.woff2": "/snap-clon/static/media/IRANSansXFaNum-regular.7f3680b852ae1c369f77.woff2",
+    "index.html": "/snap-clon/index.html",
+    "main.c6ffd79e.css.map": "/snap-clon/static/css/main.c6ffd79e.css.map",
+    "main.981fe3b1.js.map": "/snap-clon/static/js/main.981fe3b1.js.map",
+    "787.626e8cab.chunk.js.map": "/snap-clon/static/js/787.626e8cab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6ffd79e.css",
+    "static/js/main.981fe3b1.js"
+  ]
+}
