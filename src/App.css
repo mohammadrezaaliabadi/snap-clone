@@ -19,6 +19,7 @@
 
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -401,6 +402,16 @@
   text-decoration: none;
 }
 
+.bs21{
+  color: rgb(87, 94, 255);
+
+}
+
+.bs22{
+  color: rgb(34, 169, 88);
+
+}
+
 .btn-dir2{
   width: 1em;
   height: 1em;
@@ -466,6 +477,323 @@
   align-items: center;
 }
 
+.Main-footer{
+  padding: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  z-index: 25;
+  box-shadow: rgba(97, 100, 117, 0.06) 0px -6px 10px, rgba(97, 100, 117, 0.04) 0px -1px 18px, rgba(97, 100, 117, 0.12) 0px -3px 5px;
+  position: sticky;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.t{
+  width: 100%;
+  height: 100%;
+}
+.footer-btn{
+
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  letter-spacing: 0em;
+  font-family: IRANSansXFaNum-regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(34, 169, 88);
+  background-color: transparent;
+  border-radius: 0.5rem;
+  min-width: 64px;
+  height: 48px;
+  border: none;
+  box-shadow: none;
+  text-transform: none;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+
+
+
+.footer-icon{
+  width: 1em;
+  height: 1em;
+  transform: none;
+  color: inherit;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  user-select: none;
+  fill: currentcolor;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.footer-text{
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  font-family: IRANSansXFaNum-regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: rgb(34, 169, 88);
+  text-align: inherit;
+  text-decoration: none;
+}
+
+.main-detail{
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  color: inherit;
+  border-width: 0px;
+  border-style: initial;
+  border-image: initial;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-color: inherit;
+  touch-action: pan-y;
+  vertical-align: baseline;
+  background-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.detail-image{
+  object-fit: fill;
+  height: auto;
+  max-width: 100%;
+  user-select: none;
+  pointer-events: none;
+  min-height: 160px;
+  width: 100%;
+}
+
+.detail-section-1{
+  padding: 1.5rem;
+
+
+}
+
+.detail-section-2{
+  padding: 0 1.5rem;
+
+
+}
+
+.detail-item-s2{
+  display: flex;
+  flex-flow: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-end;
+  box-shadow: none;
+  gap: 0.5rem;
+}
+
+.detail-item-s2-icon{
+  width: 1em;
+  height: 1em;
+  transform: none;
+  color: inherit;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  user-select: none;
+  fill: currentcolor;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.detail-item-s2-text{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  font-family: IRANSansXFaNum-regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: rgb(104, 108, 121);
+  text-align: inherit;
+  text-decoration: none;
+
+}
+
+.detail-section-3{
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  flex-flow: column;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  box-shadow: none;
+  gap: 0.5rem;
+}
+.ds3-item{
+  display: flex;
+  flex-flow: row;
+  direction: rtl;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  box-shadow: none;
+  gap: 0.5rem;
+}
+
+.ds3-item-label{
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  font-family: IRANSansXFaNum-regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: rgb(104, 108, 121);
+  text-align: inherit;
+  text-decoration: none;
+}
+
+.ds3-item-data{
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  font-family: IRANSansXFaNum-regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: rgb(37, 42, 60);
+  text-align: inherit;
+  text-decoration: none;
+}
+
+.detail-section-4{
+  direction: rtl;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  flex-flow: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  box-shadow: none;
+  gap: 0px;
+}
+
+.ds4{
+
+  display: flex;
+  flex-flow: column;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  align-items: start;
+  box-shadow: none;
+  gap: 0.25rem;
+}
+
+.ds4-label{
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  font-family: IRANSansXFaNum-regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: rgb(37, 42, 60);
+  text-align: inherit;
+  text-decoration: none;
+}
+.ds4-code{
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  font-family: IRANSansXFaNum-regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: rgb(104, 108, 121);
+  text-align: inherit;
+  text-decoration: none;
+}
+.ds4-btn{
+  position: relative;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  letter-spacing: 0em;
+  font-family: IRANSansXFaNum, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  padding-inline: 0.5rem;
+  border: none;
+  box-shadow: none;
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+  color: rgb(87, 94, 255);
+  min-width: unset;
+}
+.ds4-span{
+  padding-inline: 0px;
+}
+.ds4-icon{
+  width: 1em;
+  height: 1em;
+  transform: none;
+  color: inherit;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  user-select: none;
+  fill: currentcolor;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.ds5-btn{
+  display: flex;
+  flex-flow: row;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  box-shadow: none;
+  gap: 0.5rem;
+  position: relative;
+  color: rgb(87, 94, 255);
+  margin-left: 0.65rem;
+
+}
+
+
 .App-header .app-nav{
   font-weight: 500;
   font-size: 1.1875rem;
@@ -491,7 +819,7 @@
   font-size: 0.875rem;
   line-height: 1rem;
   letter-spacing: 0em;
-  font-family: IRANSansXFaNum, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: IRANSansXFaNum-regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   display: inline-flex;
   -webkit-box-align: center;
   align-items: center;
