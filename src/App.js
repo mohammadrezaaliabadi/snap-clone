@@ -5,8 +5,8 @@ import { MdArrowForward } from "react-icons/md";
 const data = [
     {
       id:1,
-      name:"سعید هریوندی",
-      car:"پراید",
+      name:"رضا بهدانی",
+      car:"سمند سفید",
       rate:"خیلی خوب",
       mony:"250٬۰۰۰ ریال",
       date:"صبح ۲۷ مهر پنجشنبه",
@@ -15,9 +15,9 @@ const data = [
       img:"./IMG_20231113_090039_259.jpg",
       prof:"./IMG_20231113_085843_872.jpg",
       type:"اسنپ",
-      pay:"۲۰۴٬۳۹۹ ریال",
+      pay:"۲5۰٬۰۰۰",
       off:"۵٬۶۰۱ ریال",
-      totalPay:"۲۱۰٬۰۰۰ ریال",
+      totalPay:"255٬601 ریال",
       sdate:"27 مهر ۱۴۰۲",
       stime:"11:02",
       code:"SNP-23071-45009-7360"
@@ -172,7 +172,6 @@ function App() {
             </div>
             ))}
     
-            <div>{ids}</div>
           </div>
         :
 
@@ -193,7 +192,7 @@ function App() {
                       <p className='History-item-prof-car'>{data[ids-1].car}</p>
                     </div>
                     <div className='History-item-prof-pic'>
-                      <img className='History-item-prof-image' src="./7O9oYe6KgwaN5KzgvZyP-2.jpg"/>
+                      <img className='History-item-prof-image' src={data[ids-1].prof}/>
                     </div>
                   </div>
                 </div>
