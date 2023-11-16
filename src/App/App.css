@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+
+@font-face{
+  font-family: 'IRANSansXFaNum-regular';
+  src: local('IRANSansXFaNum-regular'), url(../fonts/IRANSansXFaNum-regular.woff2) format("truetype");
+}
+*{
+  font-family: IRANSansXFaNum-regular;
+}
+
