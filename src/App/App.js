@@ -10,7 +10,10 @@ import {
 import History from '../components/History/History';
 import ButtonAppBar from '../components/Home/Home';
 import theme from '../theme';
-import { ThemeProvider } from '@mui/material';
+import {ThemeProvider } from '@mui/material';
+import ProfMenu  from '../components/ProfMenu/ProfMenu';
+import Snap from '../components/Snap/Snap';
+import Home from '../components/Home/Home';
 
 
 const router = createBrowserRouter([
@@ -18,7 +21,8 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <div style={{position:"relative"}}>
-        <ButtonAppBar/>
+        <Home/>
+        {/* <ButtonAppBar/> */}
       </div>
     ),
   },
@@ -31,6 +35,24 @@ const router = createBrowserRouter([
 
     </ThemeProvider>
   },
+  {
+    path: "snap",
+    element: 
+
+    <ThemeProvider theme={theme}>
+      <Snap/>
+
+    </ThemeProvider>
+  },
+  {
+    path: "prof",
+    element: 
+
+    <ThemeProvider theme={theme}>
+      <ProfMenu/>
+
+    </ThemeProvider>
+  }
 ]);
 
 const App = ()=> (<RouterProvider router={router} />);

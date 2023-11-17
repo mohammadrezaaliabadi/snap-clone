@@ -25,7 +25,7 @@ const  History = ()=> {
           </div>
           <h6 className='Title-header'>{title}</h6>
           <div className='Nav-header'>
-            <Link to="/">
+            <Link to="/prof">
               <MdArrowForward className='Btn-icon' onClick={()=>inc(0,"سفرها")}/>
             </Link>
           </div>

@@ -30,6 +30,9 @@ let theme = createTheme({
       },
     },
   });
+
+  export {theme};
+
   
 
 let ClubIcon = (props) => (
@@ -38,7 +41,9 @@ let ClubIcon = (props) => (
     </SvgIcon>
   );
 
-export default function ButtonAppBar() {
+export {ClubIcon};
+
+export default function() {
     const [value, setValue] = React.useState('one');
 
     const handleChange = (event, newValue) => {
@@ -146,7 +151,7 @@ export default function ButtonAppBar() {
                   }}
                 >
                   <BottomNavigationAction   label="اسنپ" icon={     
-                  <Link  to="history">
+                  <Link  to="snap">
                       <img className='super-app-icon' src='./buttom_navigation_icon/cab.png'></img>
 
                   </Link>
@@ -173,3 +178,4 @@ export default function ButtonAppBar() {
         </>
   );
 }
+
