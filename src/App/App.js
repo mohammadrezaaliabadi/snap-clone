@@ -17,9 +17,8 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <div>
+      <div style={{position:"relative"}}>
         <ButtonAppBar/>
-        <Link to="history">اسنپ</Link>
       </div>
     ),
   },

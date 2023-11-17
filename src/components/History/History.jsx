@@ -3,7 +3,7 @@ import "../../fonts/IRANSansXFaNum-regular.woff2"
 import './History.css';
 import { MdArrowForward } from "react-icons/md";
 import historytravel from '../../data/historytravel';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 const data = historytravel
 
 
@@ -25,7 +25,9 @@ const  History = ()=> {
           </div>
           <h6 className='Title-header'>{title}</h6>
           <div className='Nav-header'>
-          <MdArrowForward className='Btn-icon' onClick={()=>inc(0,"سفرها")}/>
+            <Link to="/">
+              <MdArrowForward className='Btn-icon' onClick={()=>inc(0,"سفرها")}/>
+            </Link>
           </div>
         </div>
       </header>

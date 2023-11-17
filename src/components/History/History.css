@@ -36,8 +36,7 @@
   }
 
   .Container{
-    border-radius: 0.25rem;
-    width: 100%;
+    padding: 1.5rem;
     display: flex;
     flex-flow: column;
     -webkit-box-align: center;
@@ -46,7 +45,6 @@
     justify-content: flex-start;
     box-shadow: none;
     gap: 1rem;
-    overflow: hidden;
 
   }
   
@@ -56,14 +54,10 @@
     box-shadow: 0 1px 1px #6164750f, 0 2px 1px #6164750a, 0 1px 3px #6164751f;
     display: flex;
     flex-flow: row;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
     max-width: 508px;
     width: 100%;
-    padding: 1rem;
-
-
-
   }
   
   .History-header-item{
@@ -75,8 +69,7 @@
     justify-content: center;
     box-shadow: none;
     gap: 0px;
-    max-width: 508px;
-    width: 100%;
+    padding: 1rem;
 
   }
   
