@@ -8,7 +8,6 @@ import {
   Link,
 } from "react-router-dom";
 import History from '../components/History/History';
-import ButtonAppBar from '../components/Home/Home';
 import theme from '../theme';
 import {ThemeProvider } from '@mui/material';
 import ProfMenu  from '../components/ProfMenu/ProfMenu';
@@ -18,7 +17,7 @@ import Home from '../components/Home/Home';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "",
     element: (
       <div style={{position:"relative"}}>
         <Home/>
