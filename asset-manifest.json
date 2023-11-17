@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.b8bcc94f.css",
-    "main.js": "./static/js/main.0280071c.js",
-    "static/js/787.626e8cab.chunk.js": "./static/js/787.626e8cab.chunk.js",
-    "static/media/IRANSansXFaNum-regular.woff2": "./static/media/IRANSansXFaNum-regular.7f3680b852ae1c369f77.woff2",
-    "index.html": "./index.html",
-    "main.b8bcc94f.css.map": "./static/css/main.b8bcc94f.css.map",
-    "main.0280071c.js.map": "./static/js/main.0280071c.js.map",
-    "787.626e8cab.chunk.js.map": "./static/js/787.626e8cab.chunk.js.map"
+    "main.css": "/snap-clone/static/css/main.2e02cb18.css",
+    "main.js": "/snap-clone/static/js/main.5c3a9a10.js",
+    "static/js/787.626e8cab.chunk.js": "/snap-clone/static/js/787.626e8cab.chunk.js",
+    "static/media/IRANSansXFaNum-regular.woff2": "/snap-clone/static/media/IRANSansXFaNum-regular.7f3680b852ae1c369f77.woff2",
+    "index.html": "/snap-clone/index.html",
+    "main.2e02cb18.css.map": "/snap-clone/static/css/main.2e02cb18.css.map",
+    "main.5c3a9a10.js.map": "/snap-clone/static/js/main.5c3a9a10.js.map",
+    "787.626e8cab.chunk.js.map": "/snap-clone/static/js/787.626e8cab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8bcc94f.css",
-    "static/js/main.0280071c.js"
+    "static/css/main.2e02cb18.css",
+    "static/js/main.5c3a9a10.js"
   ]
 }
