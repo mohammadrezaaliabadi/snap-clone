@@ -50,8 +50,8 @@ export default function ProfMenu(){
         <div className="menu_prof_header">
           <img className="menu_prof_header_img" src="./menu_icon/default-user-profile.webp"/>
           <div className="menu_prof_header_info">
-            <h6 className="menu_prof_header_name">محمدرضا</h6>
-            <p className="menu_prof_header_tel">09164351332</p>
+            <h6 className="menu_prof_header_name">محمد مهدی</h6>
+            <p className="menu_prof_header_tel">09116818253</p>
           </div>
           <IconButton 
                 size="large"
@@ -108,7 +108,7 @@ export default function ProfMenu(){
                 <path fill="#8CF2C2" d="M12.2046 3.3594c.4209 0 .8415.1457 1.1871.4375l.0848.076 4.908 4.6675c.4803.4563.699 1.1367.5856 1.7983l-.022.1101-1.2517 5.4651c-.0916.401-.3017.7606-.5991 1.029l-.0833.0709-2.7954 2.2477-1.0416.8159a1.8266 1.8266 0 0 1-.9451.2646 1.828 1.828 0 0 1-.9261-.2531L9.958 19.0195l-2.431-1.9797c-.3022-.2457-.5246-.5812-.6387-.9607l-.031-.1151-1.3247-5.5668c-.1577-.6635.027-1.3618.482-1.8472l.0783-.0789 4.841-4.5991c.3599-.342.8154-.5126 1.2706-.5126Z"></path><path fill="#1AB25D" d="m15.0669 14.1367 2.4397 2.2738c-.1069.2002-.2069.3803-.3749.5314l-.0835.0709-3.0537 2.4482-.7525.5889a1.8375 1.8375 0 0 1-.984.2911l-.0002-4.1288 2.8091-2.0755Z"></path><path fill="#1D9D50" d="m9.4263 14.1367 2.8353 2.0755.0002 4.1288h-.0067a1.8362 1.8362 0 0 1-.8968-.2347l-1.5794-1.2462-2.2432-1.8212a1.9445 1.9445 0 0 1-.4874-.5907l2.378-2.3115Z"></path><path fill="#04D170" d="M18.9345 9.4785a2.039 2.039 0 0 1 .0368.8616l-.0221.11-1.2569 5.4651a2.0087 2.0087 0 0 1-.1861.4977l-2.4825-2.2738.7785-3.5337 3.1323-1.1269Z"></path><path fill="#1A954B" d="m5.5399 9.4277 3.0564 1.1875.8285 3.524-2.378 2.3114a2.001 2.001 0 0 1-.1533-.37l-.031-.1151-1.329-5.5668a2.0386 2.0386 0 0 1 .0064-.971Z"></path><path fill="#21A555" d="m12.2324 3.3594.0001 3.866-3.6343 3.3883-3.0564-1.1875a1.9878 1.9878 0 0 1 .4771-.8762l.0786-.0789 4.8561-4.5991c.3609-.342.8179-.5126 1.2744-.5126h.0044Z"></path><path fill="#0DC368" d="M12.2133 7.2344c.2245 0 .4488.0719.636.2159l.0684.0573 2.7182 2.4834c.2607.238.3823.5904.3278.9358l-.0157.0796-.6932 2.9077a1.0441 1.0441 0 0 1-.3097.5277l-.0682.0575-2.0104 1.553a1.0432 1.0432 0 0 1-1.2088.048l-.0726-.0519-1.9623-1.5352a1.0444 1.0444 0 0 1-.3464-.4886l-.0245-.0838-.7337-2.9619a1.0474 1.0474 0 0 1 .2521-.9673l.0582-.0575 2.6811-2.447a1.0408 1.0408 0 0 1 .7037-.2727Z"></path><path fill="#8CF2C2" d="M11.6818 12.8102c.4517 0 .8181.3745.8181.8357 0 .4614-.3664.8357-.8181.8357-.4516 0-.8183-.3743-.8183-.8357 0-.4612.3667-.8357.8183-.8357Zm1.7667-3.9235-.7267 2.8452c-.0881.3486-.3959.5923-.7486.5923h-.7285l.8762-3.4375h1.3276Z"></path>
                 </svg>
                 <div class="css-1avyp1d css-10s76o4">
-                  <p color="surface.high" class="css-1451qnd"> 3670</p>
+                  <p color="surface.high" class="css-1451qnd"> 24560</p>
                   </div>
                   <div class="css-1avyp1d css-10s76o4">
                     <p color="surface.high" class="css-tg0iph">امتیاز</p>
@@ -117,7 +117,7 @@ export default function ProfMenu(){
           </div>
           <hr color="dark" className="hr_menu_prof"></hr>
           <Link to="/history">
-            <div onClick={()=>console.log("test")} className="prof_menu_item">
+            <div className="prof_menu_item">
             <IconButton
               className="prof_menu_icon"
                   size="large"
@@ -128,7 +128,7 @@ export default function ProfMenu(){
                 <History/>
               </IconButton>
               <div className="menu_label_container">
-                <h6 className="menu_label">سغرها</h6>
+                <h6 className="menu_label">سفرها</h6>
               </div>
             </div>
           </Link>

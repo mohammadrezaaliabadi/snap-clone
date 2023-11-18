@@ -17,14 +17,15 @@ import Home from '../components/Home/Home';
 
 const router = createBrowserRouter([
   {
-    path: "",
-    element: (
-      <div style={{position:"relative"}}>
-        <Home/>
-        {/* <ButtonAppBar/> */}
-      </div>
-    ),
-  },
+    path: "/",
+    element:
+    <ThemeProvider theme={theme}>
+    <Home/>
+
+  </ThemeProvider> 
+
+  }
+      ,
   {
     path: "history",
     element: 
